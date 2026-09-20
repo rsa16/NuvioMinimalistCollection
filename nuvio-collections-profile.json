@@ -1,0 +1,2292 @@
+[
+  {
+    "id": "collection-beabeb28-community",
+    "title": "Streaming Services",
+    "folders": [
+      {
+        "id": "folder-a4a45888",
+        "title": "Netflix",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.nfx",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.nfx",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.nfk",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.nfk",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-6df1df20c255f3b6.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/469fb054-cbec-46ca-bc91-6ed73a6d647b.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.nfx"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.nfx"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.nfk"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.nfk"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-3dd88f2d",
+        "title": "Apple TV",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.atp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.atp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-61d4aeaf13b22ba4.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/d2b77dfd-c14a-4258-ab0f-b610519c96ef.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.atp"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.atp"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-bf605c17",
+        "title": "Prime Video",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.amp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.amp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-600b99587cd37a82.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/d0476b73-c21d-4c1d-946f-7ce3fef17ccd.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.amp"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.amp"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-fb83902c",
+        "title": "Hulu",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.hlu",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.hlu",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-63e0a323df8b1937.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Hulu-image.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.hlu"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.hlu"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-6bfa2b7e",
+        "title": "HBO max",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.hbm",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.hbm",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-6988ed4af5ef74d1.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/af3c0122-cbd1-49ae-94f1-6da0f9f665a8.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.hbm"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.hbm"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-0c0ad18f",
+        "title": "Disney +",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.dnp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.dnp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-6f947506a526be52.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/e2155ff8-4939-40d1-8dc2-7d28df3ecaa0.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.dnp"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.dnp"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-7a64710a",
+        "title": "Paramount +",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.pmp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.pmp",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Paramount.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/12db31b7-ca2e-4980-9c92-c83e58a22949.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.pmp"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.pmp"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "f095c4e6-795e-46e5-8bea-5840f6477275",
+        "title": "Crunchyroll",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.cru",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.cru",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-698a2a8f54b01c3c.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/25afa73d28703b9a0f969380227cb62c33805ede8746232d86298815858b4141-(1).png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.cru"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.cru"
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "06bf21d2-6e8b-4709-9708-f5fd7f740bf1",
+        "title": "Rakuten Viki",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.vik",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.vik",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-69149284e3a83225.gif",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/file-00000000ae9072078629d633fa1abfb6.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.movie.vik"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.pw_ers_netflix_catalog.series.vik"
+          }
+        ],
+        "focusGifEnabled": true
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "ROWS",
+    "showAllTab": true,
+    "backdropImageUrl": "https://nuvioapp.space/uploads/covers/161c7fde-ad93-41a2-919a-c830f4e8f6fb.jpeg",
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "b408c132-28c7-4adb-9eb4-5d7bf79ce5cd",
+    "title": "Discover",
+    "folders": [
+      {
+        "id": "79321834-08fb-4008-9686-02de807fa7ed",
+        "title": "Anticipated",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_141974",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/210726.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/210726.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_141974"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "9f6f1eda-fee3-4123-b3ed-0d94f09ae71f",
+        "title": "Latest",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_88306",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_2194",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/ezgif-46ea96bd3c373055.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/ezgif-46ea96bd3c373055.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_88306"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_2194"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "97c45ef4-8414-45ed-bb0a-405cc540782b",
+        "title": "Popular",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.tmdb_top_movie",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.tmdb_top_series",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/210740.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/210740.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.tmdb_top_movie"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.tmdb_top_series"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "14aa7c4d-7d7e-4d4b-b4fb-ad95d22cbda6",
+        "title": "Trending",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.tmdb_trending_movie",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.tmdb_trending_series",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/210725.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/210725.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.tmdb_trending_movie"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.tmdb_trending_series"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "da246d3f-19b0-4a16-a404-11af05c984d5",
+        "title": "Top Rated",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.tmdb_top_rated_movie",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.tmdb_top_rated_series",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/210707.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/210707.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.tmdb_top_rated_movie"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.tmdb_top_rated_series"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "faf358b6-ae56-4714-b2aa-08488f8cdee6",
+        "title": "Recommended",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.179526",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.179527",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/210731.gif",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/stills/210731.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.179526"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.179527"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "edc39dc8-4e21-47a1-89a8-610b12f343bc",
+    "title": "Genres",
+    "folders": [
+      {
+        "id": "5ca3399e-dd1c-468a-b531-8a61472636c8",
+        "title": "Action",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158800",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158825",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-114706-(1).png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158800"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158825"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "327b75f7-e6f0-4624-9afe-d469c89f7424",
+        "title": "Adventure",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158810",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158832",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-183919.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158810"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158832"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "34b15f9f-6530-4e9f-a574-b1606e6be16a",
+        "title": "Animation",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158811",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158834",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0182.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158811"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158834"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "fed843c6-8c58-4a25-8af4-5075cd0fcc34",
+        "title": "Anime",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158817",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158840",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0178-(1).png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158817"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158840"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "2f8ec4c6-76c1-41e5-abac-401cd4451d35",
+        "title": "Comedy",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158801",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158826",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0169.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158801"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158826"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "fd2cfd8b-e2ed-4795-b96c-f6ae8bcfc03e",
+        "title": "Crime",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158804",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158828",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0179.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158804"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158828"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "733dd04a-b120-40da-b33b-577609d67997",
+        "title": "Documentary",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158813",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158836",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0177.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158813"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158836"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "6bf3329e-f238-4a31-af2b-70bf999024d2",
+        "title": "Drama",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158807",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158830",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0170.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158807"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158830"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "f613029e-c5f7-40f5-94a3-81069af880b1",
+        "title": "Horror",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158812",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158835",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0175.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158812"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158835"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "d09f47cc-1919-4696-80b1-e8d62df93526",
+        "title": "History",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158814",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158837",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0176.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158814"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158837"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "d008275b-6ee6-4863-a8df-169fb92f9604",
+        "title": "K-Drama",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158818",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158841",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-113536.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158818"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158841"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "f27e6fad-b15f-4426-8687-31e15b0d6d95",
+        "title": "Kids & Family",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158809",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158831",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-113459.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158809"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158831"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "dc7d1a7f-7dc8-4a1b-ab9e-b89f7cc26333",
+        "title": "Mystery",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158802",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158823",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0180.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158802"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158823"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "e5ee3eba-3e14-4302-866e-b97f53d6477b",
+        "title": "Reality",
+        "sources": [
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_160049",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/492f198fb80f43f0080dddcefb57c9ec7deed2b9d7f2c47ba49948821dac5921.png",
+        "catalogSources": [
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_160049"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "c392b580-4c04-4f4f-8b9c-1329c5b79263",
+        "title": "Romance",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158806",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158824",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0172.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158806"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158824"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "3bff5af2-2de9-45a8-a240-82952d1e9500",
+        "title": "Sci-Fi / Fantasy",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158803",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158827",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-113816.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158803"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158827"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "a28d0424-4424-448e-9f25-35920cc51ff5",
+        "title": "Thriller",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158805",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158829",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-0174.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158805"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158829"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "54b6703d-587d-4c10-acfb-62dd9e4d946d",
+        "title": "War",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158815",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "custom.aio_metadata.series.mdblist_158838",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/IMG-20260603-113518.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.movie.mdblist_158815"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "custom.aio_metadata.series.mdblist_158838"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "a3ef2b2d-0fb3-443d-ab11-ff628c3e9117",
+    "title": "World",
+    "folders": [
+      {
+        "id": "e24dd47b-1f1e-4dd1-8147-c4bd2625a314",
+        "title": "Malaysia",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.125401",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.180402",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Malaysia.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125401"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.180402"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "d5bd5518-17c5-4ed7-acf1-db241d813ca2",
+        "title": "Indonesia",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.125403",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.130193",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Japan.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125403"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.130193"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "a480fff5-5374-49b9-be28-701746fad3d9",
+        "title": "Thailand",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.173413",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.111877",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Thailand.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.173413"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.111877"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "1718feb3-9354-4d6a-bb12-df99c3946012",
+        "title": "Japan",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.118920",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.144004",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Japan.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.118920"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.144004"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "e90c9119-5474-4b60-849c-f97ae14f0c89",
+        "title": "Korea",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.13814",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.3584",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Korea.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.13814"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3584"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "6244a77e-c044-4a0e-8acd-9191013b7de1",
+        "title": "India",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.1817",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.8310",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/India.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.1817"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.8310"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      },
+      {
+        "id": "34ace119-8664-460e-b9ed-ba5c4804a962",
+        "title": "China",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.120681",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "title": null,
+            "sortBy": null,
+            "tmdbId": null,
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "mdblist.167852",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://rsaaa.xyz/hosted-files/nuvio-minimal-collection/Japan-20260717-224702-0000.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.120681"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.167852"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": ""
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": true
+  }
+]

@@ -1,0 +1,5747 @@
+{
+  "version": "2.12.0",
+  "exportedAt": "2026-08-15T09:25:32.404Z",
+  "config": {
+    "mal": {
+      "skipRecap": false,
+      "skipFiller": false,
+      "allowEpisodeMarking": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "sfw": false,
+    "tags": [
+      {
+        "name": "Movie",
+        "color": "blue"
+      },
+      {
+        "name": "Series",
+        "color": "green"
+      }
+    ],
+    "tmdb": {
+      "scrapeImdb": false,
+      "forceLatinCastNames": false
+    },
+    "search": {
+      "enabled": true,
+      "ai_model": "gemini-2.5-flash-lite",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "mal.search.movie",
+        "anime_series": "mal.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "ai_enabled": true,
+      "ai_provider": "gemini",
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ],
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "trakt.search": true,
+        "gemini.search": true,
+        "tvmaze.search": true,
+        "mdblist.search": true,
+        "mal.search.movie": true,
+        "mal.search.series": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "tvdb.collections.search": false
+      }
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "",
+      "openrouter": "",
+      "traktTokenId": "",
+      "simklTokenId": "",
+      "anilistTokenId": "",
+      "customDescriptionBlurb": ""
+    },
+    "catalogs": [
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.nfx",
+        "name": "Netflix",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/nfx.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "nfx",
+          "name": "Netflix",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.nfx",
+        "name": "Netflix",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/nfx.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "nfx",
+          "name": "Netflix",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.nfk",
+        "name": "Netflix Kids",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/nfk.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "nfk",
+          "name": "Netflix Kids",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.nfk",
+        "name": "Netflix Kids",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/nfk.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "nfk",
+          "name": "Netflix Kids",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.atp",
+        "name": "Apple TV+",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/atp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "atp",
+          "name": "Apple TV+",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.atp",
+        "name": "Apple TV+",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/atp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "atp",
+          "name": "Apple TV+",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.amp",
+        "name": "Prime Video",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/amp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "amp",
+          "name": "Prime Video",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.amp",
+        "name": "Prime Video",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/amp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "amp",
+          "name": "Prime Video",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.hlu",
+        "name": "Hulu",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/hlu.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "hlu",
+          "name": "Hulu",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.hlu",
+        "name": "Hulu",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/hlu.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "hlu",
+          "name": "Hulu",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.hbm",
+        "name": "HBO Max",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/hbm.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "hbm",
+          "name": "HBO Max",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.hbm",
+        "name": "HBO Max",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/hbm.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "hbm",
+          "name": "HBO Max",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.dnp",
+        "name": "Disney+",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/dnp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "dnp",
+          "name": "Disney+",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.dnp",
+        "name": "Disney+",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/dnp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "dnp",
+          "name": "Disney+",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.pmp",
+        "name": "Paramount+",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/pmp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "pmp",
+          "name": "Paramount+",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.pmp",
+        "name": "Paramount+",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/pmp.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "pmp",
+          "name": "Paramount+",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.cru",
+        "name": "Crunchyroll",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/cru.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "cru",
+          "name": "Crunchyroll",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.cru",
+        "name": "Crunchyroll",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/cru.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "cru",
+          "name": "Crunchyroll",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.movie.vik",
+        "name": "Rakuten Viki",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/movie/vik.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "vik",
+          "name": "Rakuten Viki",
+          "type": "movie",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.pw_ers_netflix_catalog.series.vik",
+        "name": "Rakuten Viki",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/bmZ4LG5mayxhdHAsYW1wLGhsdSxoYm0sZG5wLHBtcCxjcnUsdmlrOjpNWToxNzc4MDYwOTA4NzI1OjA6MDpNWQ%3D%3D/catalog/series/vik.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "vik",
+          "name": "Rakuten Viki",
+          "type": "series",
+          "idPrefixes": [
+            "tt"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158800",
+        "name": "Action",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158800.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158800",
+          "name": "Action",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158825",
+        "name": "Action",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158825.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158825",
+          "name": "Action",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158810",
+        "name": "Adventure",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158810.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158810",
+          "name": "Adventure",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158832",
+        "name": "Adventure",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158832.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158832",
+          "name": "Adventure",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158811",
+        "name": "Animation",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158811.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158811",
+          "name": "Animation",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158834",
+        "name": "Animation",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158834.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158834",
+          "name": "Animation",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158817",
+        "name": "Anime",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158817.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158817",
+          "name": "Anime",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158840",
+        "name": "Anime",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158840.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158840",
+          "name": "Anime",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158801",
+        "name": "Comedy",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158801.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158801",
+          "name": "Comedy",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158826",
+        "name": "Comedy",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158826.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158826",
+          "name": "Comedy",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158804",
+        "name": "Crime",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158804.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158804",
+          "name": "Crime",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158828",
+        "name": "Crime",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158828.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158828",
+          "name": "Crime",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158813",
+        "name": "Documentary",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158813.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158813",
+          "name": "Documentary",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158836",
+        "name": "Documentary",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158836.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158836",
+          "name": "Documentary",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158807",
+        "name": "Drama",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158807.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158807",
+          "name": "Drama",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158830",
+        "name": "Drama",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158830.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158830",
+          "name": "Drama",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158812",
+        "name": "Horror",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158812.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158812",
+          "name": "Horror",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158835",
+        "name": "Horror",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158835.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158835",
+          "name": "Horror",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158814",
+        "name": "History",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158814.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158814",
+          "name": "History",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158837",
+        "name": "History",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158837.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158837",
+          "name": "History",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158818",
+        "name": "K-Drama",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158818.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158818",
+          "name": "K-Drama",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158841",
+        "name": "K-Drama",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158841.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158841",
+          "name": "K-Drama",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158809",
+        "name": "Kids & Family",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158809.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158809",
+          "name": "Kids & Family",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158831",
+        "name": "Kids & Family",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158831.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158831",
+          "name": "Kids & Family",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158802",
+        "name": "Mystery",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158802.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158802",
+          "name": "Mystery",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158823",
+        "name": "Mystery",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158823.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158823",
+          "name": "Mystery",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158806",
+        "name": "Romance",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158806.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158806",
+          "name": "Romance",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158824",
+        "name": "Romance",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158824.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158824",
+          "name": "Romance",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_160049",
+        "name": "Reality",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.160049.json",
+        "showInHome": true,
+        "displayType": "series",
+        "manifestData": {
+          "id": "mdblist.160049",
+          "name": "Reality TV",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158803",
+        "name": "Sci-Fi / Fantasy",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158803.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158803",
+          "name": "Sci-Fi / Fantasy",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158827",
+        "name": "Sci-Fi / Fantasy",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158827.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158827",
+          "name": "Sci-Fi / Fantasy",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158805",
+        "name": "Thriller",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158805.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158805",
+          "name": "Thriller",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158829",
+        "name": "Thriller",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158829.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158829",
+          "name": "Thriller",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_158815",
+        "name": "War",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/movie/mdblist.158815.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158815",
+          "name": "War",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_158838",
+        "name": "War",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/5d145872-417d-49bb-844b-4b96fd4b4f6c/catalog/series/mdblist.158838.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.158838",
+          "name": "War",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_141974",
+        "name": "Anticipated",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/mdblist.141974.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.141974",
+          "name": "Anticipated",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "None",
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": true
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": false
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_2618",
+        "name": "Top Movies",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": false,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/mdblist.2618.json",
+        "showInHome": false,
+        "manifestData": {
+          "id": "mdblist.2618",
+          "name": "Top Movies",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.mdblist_88306",
+        "name": "Latest",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/mdblist.88306.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.88306",
+          "name": "Latest",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.mdblist_2194",
+        "name": "Latest",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/mdblist.2194.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "mdblist.2194",
+          "name": "Latest",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western",
+                "Animation",
+                "Adventure",
+                "Romance",
+                "Reality",
+                "Soap",
+                "News",
+                "Talk Show",
+                "Biography",
+                "Sci-Fi",
+                "Sport",
+                "Film Noir",
+                "Reality TV",
+                "Game Show",
+                "Special Interest",
+                "Children",
+                "Home and Garden",
+                "TV Movie",
+                "Donghua",
+                "Talk",
+                "Kids"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.tmdb_top_movie",
+        "name": "Popular",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/tmdb.top_movie.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.top_movie",
+          "name": "Popular",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Action",
+              "options": [
+                "Action",
+                "Adventure",
+                "Animation",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Horror",
+                "Music",
+                "Mystery",
+                "Romance",
+                "Science Fiction",
+                "TV Movie",
+                "Thriller",
+                "War",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.tmdb_top_series",
+        "name": "Popular",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/tmdb.top_series.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.top_series",
+          "name": "Popular",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Action & Adventure",
+              "options": [
+                "Action & Adventure",
+                "Animation",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Kids",
+                "Mystery",
+                "News",
+                "Reality",
+                "Sci-Fi & Fantasy",
+                "Soap",
+                "Talk",
+                "War & Politics",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.tmdb_trending_movie",
+        "name": "Trending",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/tmdb.trending_movie.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.trending_movie",
+          "name": "Trending",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Day",
+              "options": [
+                "Day",
+                "Week"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.tmdb_trending_series",
+        "name": "Trending",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/tmdb.trending_series.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.trending_series",
+          "name": "Trending",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Day",
+              "options": [
+                "Day",
+                "Week"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.tmdb_top_rated_movie",
+        "name": "Top Rated",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/tmdb.top_rated_movie.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.top_rated_movie",
+          "name": "Top Rated",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Action",
+              "options": [
+                "Action",
+                "Adventure",
+                "Animation",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Horror",
+                "Music",
+                "Mystery",
+                "Romance",
+                "Science Fiction",
+                "TV Movie",
+                "Thriller",
+                "War",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.tmdb_top_rated_series",
+        "name": "Top Rated",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/tmdb.top_rated_series.json",
+        "showInHome": true,
+        "manifestData": {
+          "id": "tmdb.top_rated_series",
+          "name": "Top Rated",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "default": "Action & Adventure",
+              "options": [
+                "Action & Adventure",
+                "Animation",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Drama",
+                "Family",
+                "Kids",
+                "Mystery",
+                "News",
+                "Reality",
+                "Sci-Fi & Fantasy",
+                "Soap",
+                "Talk",
+                "War & Politics",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.179526",
+        "name": "Recommended",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/shahrulhishamsecond/movie-recommended",
+          "author": "shahrulhishamsecond",
+          "itemCount": 178,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.179527",
+        "name": "Recommended",
+        "sort": "default",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/shahrulhishamsecond/recommended-shows",
+          "author": "shahrulhishamsecond",
+          "itemCount": 212,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.movie.trakt_recommendations_movies",
+        "name": "Recommended",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "genres": [],
+        "source": "custom",
+        "enabled": false,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/movie/trakt.recommendations.movies.json",
+        "showInHome": false,
+        "manifestData": {
+          "id": "trakt.recommendations.movies",
+          "name": "Recommended",
+          "type": "movie",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Adventure",
+                "Animation",
+                "Anime",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Donghua",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "History",
+                "Holiday",
+                "Horror",
+                "Music",
+                "Musical",
+                "Mystery",
+                "None",
+                "Romance",
+                "Science Fiction",
+                "Short",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Thriller",
+                "War",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.trakt_recommendations_shows",
+        "name": "Recommended",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": false,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/trakt.recommendations.shows.json",
+        "showInHome": false,
+        "manifestData": {
+          "id": "trakt.recommendations.shows",
+          "name": "Recommended",
+          "type": "series",
+          "extra": [
+            {
+              "name": "genre",
+              "options": [
+                "Action",
+                "Adventure",
+                "Animation",
+                "Anime",
+                "Biography",
+                "Children",
+                "Comedy",
+                "Crime",
+                "Documentary",
+                "Donghua",
+                "Drama",
+                "Family",
+                "Fantasy",
+                "Game Show",
+                "History",
+                "Holiday",
+                "Home And Garden",
+                "Horror",
+                "Mini Series",
+                "Music",
+                "Musical",
+                "Mystery",
+                "News",
+                "None",
+                "Reality",
+                "Romance",
+                "Science Fiction",
+                "Short",
+                "Soap",
+                "Special Interest",
+                "Sporting Event",
+                "Superhero",
+                "Suspense",
+                "Talk Show",
+                "Thriller",
+                "War",
+                "Western"
+              ],
+              "isRequired": false
+            },
+            {
+              "name": "skip"
+            }
+          ],
+          "pageSize": 50,
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "showInHome": true
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "custom.aio_metadata.series.calendar_videos",
+        "name": "Calendar videos",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "genres": [],
+        "source": "custom",
+        "enabled": false,
+        "cacheTTL": 86400,
+        "sourceUrl": "https://aiometadatafortheweebs.midnightignite.me/stremio/4ad0dc88-7f62-4faf-930a-e3bb72a94501/catalog/series/calendar-videos.json",
+        "showInHome": false,
+        "manifestData": {
+          "id": "calendar-videos",
+          "name": "Calendar videos",
+          "type": "series",
+          "extra": [
+            {
+              "name": "calendarVideosIds",
+              "isRequired": true,
+              "optionsLimit": 100
+            }
+          ],
+          "idPrefixes": [
+            "tmdb:",
+            "tt",
+            "tvdb:",
+            "mal:",
+            "tvmaze:",
+            "kitsu:",
+            "anidb:",
+            "anilist:",
+            "tvdbc:",
+            "upnext_",
+            "unwatched_",
+            "mdblist_upnext_",
+            "pmdb_resume_"
+          ],
+          "extraRequired": [
+            "calendarVideosIds"
+          ],
+          "extraSupported": [
+            "calendarVideosIds"
+          ]
+        },
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.125401",
+        "name": "Malaysia",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/kyreein/malaysia-movies-series",
+          "author": "kyreein",
+          "itemCount": 2008,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.180402",
+        "name": "Malaysia",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/a2imzularshad/malaysia-series",
+          "author": "a2imzularshad",
+          "itemCount": 397,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.111877",
+        "name": "Thailand",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/flashnova/netflix-thailand-tv-shows",
+          "author": "flashnova",
+          "itemCount": 108,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.173413",
+        "name": "Thailand",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/afx1991/thailand-movie",
+          "author": "afx1991",
+          "itemCount": 3500,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.13814",
+        "name": "Korea",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/linvo/korean-dramas-popular-movies",
+          "author": "linvo",
+          "itemCount": 13768,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.3584",
+        "name": "Korea",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/saltydude/top-rated-korean-tv-shows",
+          "author": "saltydude",
+          "itemCount": 1002,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.118920",
+        "name": "Japan",
+        "sort": "imdbpopular",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/acrobaticmolasses/top-japanese-movies-1990-current",
+          "author": "acrobaticmolasses",
+          "itemCount": 1000,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.144004",
+        "name": "Japan",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/nuguns17/japanese-shows",
+          "author": "nuguns17",
+          "itemCount": 7937,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.1817",
+        "name": "India",
+        "sort": "imdbpopular",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/geek-baba/list-of-latest-hindi-movies",
+          "author": "geek-baba",
+          "itemCount": 24936,
+          "mediatype": "movie"
+        },
+        "showInHome": false,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.8310",
+        "name": "India",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/apollocat/indian-tv-shows-hindi-english",
+          "author": "apollocat",
+          "itemCount": 226,
+          "mediatype": "show"
+        },
+        "showInHome": false,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.120681",
+        "name": "China",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/anniehanglam-gmail-com/hong-kongchina-movies",
+          "author": "anniehanglam-gmail-com",
+          "itemCount": 521,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "displayType": "movie",
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.167852",
+        "name": "China",
+        "sort": "imdbvotes",
+        "tags": [
+          "Series"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/hboinay/china-hk-taiwan-series",
+          "author": "hboinay",
+          "itemCount": 2959,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.125403",
+        "name": "Indonesia",
+        "sort": "imdbpopular",
+        "tags": [
+          "Movie"
+        ],
+        "type": "movie",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/kyreein/indonesia",
+          "author": "kyreein",
+          "itemCount": 6388,
+          "mediatype": "movie"
+        },
+        "showInHome": true,
+        "genreSelection": "standard",
+        "randomizePerPage": false,
+        "enableRatingPosters": true
+      },
+      {
+        "id": "mdblist.130193",
+        "name": "indonesia",
+        "sort": "default",
+        "tags": [
+          "Movie"
+        ],
+        "type": "series",
+        "order": "asc",
+        "source": "mdblist",
+        "enabled": true,
+        "cacheTTL": 86400,
+        "metadata": {
+          "url": "https://mdblist.com/lists/zovra/indonesia-series",
+          "author": "zovra",
+          "itemCount": 497,
+          "mediatype": "show"
+        },
+        "showInHome": true,
+        "displayType": "series",
+        "genreSelection": "standard",
+        "enableRatingPosters": true
+      }
+    ],
+    "language": "en-US",
+    "timezone": "Asia/Kuala_Lumpur",
+    "addonName": "Minimalist Collection's Catalog",
+    "ageRating": "None",
+    "castCount": 10,
+    "providers": {
+      "anime": "mal",
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": false
+    },
+    "sessionId": "",
+    "streaming": [],
+    "blurThumbs": false,
+    "configHash": "e38cb77cf4f76fec",
+    "showPrefix": false,
+    "artProviders": {
+      "anime": {
+        "logo": "imdb",
+        "poster": "meta",
+        "background": "imdb"
+      },
+      "movie": {
+        "logo": "meta",
+        "poster": "meta",
+        "background": "fanart"
+      },
+      "series": {
+        "logo": "meta",
+        "poster": "meta",
+        "background": "fanart"
+      },
+      "englishArtOnly": false,
+      "originalLangFallback": false
+    },
+    "includeAdult": false,
+    "lastModified": 1784484047683,
+    "configVersion": 1784484047684,
+    "searchEnabled": true,
+    "tvdbSeasonType": "default",
+    "usePosterProxy": true,
+    "displayAgeRating": true,
+    "hideWatchedTrakt": false,
+    "showRateMeButton": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "simklWatchTracking": false,
+    "traktWatchTracking": false,
+    "hideUnreleasedShows": false,
+    "anilistWatchTracking": false,
+    "catalogSetupComplete": true,
+    "customLogoUrlPattern": "",
+    "mdblistWatchTracking": false,
+    "posterRatingProvider": "rpdb",
+    "showDisabledCatalogs": false,
+    "hideUnreleasedDigital": false,
+    "customPosterUrlPattern": "https://btttr.cc/poster-q/imdb/poster-default/{imdb_id}.jpg",
+    "hideUnreleasedShowsSearch": false,
+    "publicmetadbWatchTracking": false,
+    "customBackgroundUrlPattern": "",
+    "hideUnreleasedDigitalSearch": false,
+    "showMetaProviderAttribution": false,
+    "enableRatingPostersForLibrary": true
+  },
+  "metadata": {
+    "apiKeysExcluded": true,
+    "totalCatalogs": 148,
+    "enabledCatalogs": 80
+  }
+}
